@@ -1,0 +1,429 @@
+body {
+    background: #F5F5F5;
+}
+
+header {
+
+    padding: 20px 0;
+}
+
+.caja {
+    width: 940px;
+    position: relative;
+    margin: 0 auto 0 5em;
+}
+
+header div h3 {
+    display: inline-block;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 19px;
+}
+
+nav {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 10px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+/*Introduccción sobre mi y la imagen*/
+
+.title {
+
+    margin: 2em 5em 5em 5em;
+}
+
+.title__div {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.title__profile {
+    float: right;
+}
+
+.title__container {
+    width: 100%;
+}
+
+.title__bio {
+    width: 100%;
+    height: auto;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+    margin: 20px 0;
+}
+
+.title__subsection {
+    width: 100%;
+    height: auto;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #464646;
+    margin: 80px 0 20px 0;
+}
+
+/*redes sociales github,instagram,linkedin y curruculum*/
+.title__network {
+    margin-top: 3em;
+    width: 30%;
+    height: 19px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #464646;
+}
+
+.title__network li {
+    display: inline;
+    margin: 0 5px 0 0;
+}
+
+/*Sobre mi*/
+.about {
+    width: 100%;
+}
+
+.about__container {
+    margin: 0 5em 0 5em;
+}
+
+.about h3 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+    margin-bottom: 1em;
+}
+
+.about p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+
+/*Skills y hobbies*/
+.skills,
+.hobbies {
+    margin: 3em 5em 0 2em;
+}
+
+.skills h3,
+.hobbies__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #464646;
+}
+
+.skills__line,
+.hobbies__line {
+    width: 100%;
+}
+
+.skills__box {
+    width: 75px;
+    height: 46;
+    display: inline-block;
+    margin: 2em 3em;
+}
+
+.hobbies__box {
+    width: 6%;
+    display: inline-block;
+    margin: 2em 3em;
+}
+
+
+
+/*Formación academica*/
+.academic {
+    margin: 3em 5em 0 1em;
+}
+
+.academic__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #464646;
+}
+
+.academic__courses {
+    width: 0 auto;
+    margin: 3em 0;
+}
+
+.academic__courses h4 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #464646;
+}
+
+.academic__courses__box {
+    display: inline-block;
+    margin: 0 6em 0 4em;
+}
+
+/*Experiencia profesional*/
+.experience {
+    margin: 3em 5em 0 5em;
+}
+
+.experiencie__box {
+    height: 500px;
+}
+
+.experience__info {
+    margin-top: 1em;
+    width: 100%;
+}
+
+.c3 {
+    width: 30%;
+    display: inline;
+    float: left;
+    overflow-x: hidden;
+}
+
+.c4 {
+    width: 40%;
+    display: inline;
+    float: left;
+    overflow-x: hidden;
+}
+
+.c5 {
+    width: 50%;
+    display: inline;
+    float: left;
+    overflow-x: hidden;
+}
+
+.c6 {
+    width: 60%;
+    display: inline;
+    float: left;
+    overflow-x: hidden;
+}
+
+.c7 {
+    width: 70%;
+    display: inline;
+    float: left;
+    overflow-x: hidden;
+}
+
+.c3-info {
+    margin-top: 10em;
+}
+
+.fila {
+    height: 800px;
+}
+
+.experience__info h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #464646;
+
+}
+
+.experience__info h3 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+
+}
+
+.experience__section__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #464646;
+}
+
+button {
+    border-radius: 0px;
+
+
+
+}
+
+.experience__description {
+    width: 100%;
+}
+
+.boton-repo {
+    padding: 15px 10px 15px 10px;
+    background: #FFFFFF;
+    color: #2A7AE4;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.boton-repo:hover {
+    cursor: pointer;
+    background: #92b6e6;
+    color: #FFFFFF;
+}
+
+.boton-demo {
+    padding: 15px 15px 15px 15px;
+    background: #2A7AE4;
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+}
+
+.boton-demo:hover {
+    cursor: pointer;
+    background: #c1c0eb;
+    color: #2A7AE4;
+}
+
+/*Formulario de Contacto*/
+
+.formulario-contacto-c3 {
+    margin-right: 1em;
+}
+
+.formcontato__img {
+    height: 500px;
+}
+
+.fila-formulario-titulo {
+    height: 500px;
+}
+
+.fila-formulario {
+    height: 400px;
+}
+
+.fila-titulo {
+    height: 100px;
+}
+
+.formcontato__form {
+
+    height: 400px;
+}
+
+.formcontato__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+}
+
+.formcontato__subtext {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+
+.formcontato__input {
+    height: 10%;
+    width: 98%;
+    display: block;
+    margin-bottom: 2em;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 150px;
+    display: flex;
+    align-items: center;
+    color: #A2A2A2;
+
+}
+
+.formcontato__textarea {
+    width: 98%;
+    margin-bottom: 2em;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 13px;
+    align-items: center;
+    color: #A2A2A2;
+}
+
+.formcontato__contacto {
+    margin: 0 0 0 5em;
+}
+
+/*footer*/
+.footer__rodape {
+    margin: 0 auto;
+}
+
+.footer__rodape p {
+    margin: 1em auto;
+    width: 229px;
+    height: 38px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #464646;
+    box-align: center;
+}
+
